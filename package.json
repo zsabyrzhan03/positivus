@@ -1,0 +1,24 @@
+{
+  "name": "positivus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsabyrzhan03/positivus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zsabyrzhan03/positivus/issues"
+  },
+  "homepage": "https://github.com/zsabyrzhan03/positivus#readme",
+  "dependencies": {
+    "sass": "^1.93.3"
+  }
+}
