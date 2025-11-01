@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sass src/scss:dist/css && cp src/index.html dist/",
-    "watch": "sass --watch src/scss:dist/css"
+    "watch": "sass --watch src/scss:dist/css",
+    "build": "sass src/scss:dist/css --no-source-map && cp src/index.html dist/ && mkdir -p dist/assets && cp -r src/assets/* dist/assets/"
   },
   "repository": {
     "type": "git",
